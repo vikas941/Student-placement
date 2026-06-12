@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 
 # Load Model
-model = pickle.load(open("../placement_model.pkl", "rb"))
+model = pickle.load(open("placement_model.pkl", "rb"))
 
 # Page Config
 st.set_page_config(
